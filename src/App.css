@@ -1,5 +1,5 @@
 body {
-  background:#2C3E50;
+  background: #2c3e50;
 }
 
 * {
@@ -25,18 +25,16 @@ body {
   background: rgba(0, 0, 0, 0.1);
   margin: 30px auto;
   position: relative;
-  
 }
-
 
 .stopwatch {
   padding: 60px 0px;
   text-align: center;
-  
+
   opacity: 1;
 }
-.stopwatch span{
-  background:orange;
+.stopwatch span {
+  background: orange;
   color: #fff;
   display: inline-block;
   font-family: monospace;
@@ -58,44 +56,42 @@ body {
   transition: background 1s;
   cursor: pointer;
 }
-.stopwatch .stopwatch-btn-red{
-  border: 2px solid #C85454;
-  color: #C85454;
+.stopwatch .stopwatch-btn-red {
+  border: 2px solid #c85454;
+  color: #c85454;
 }
-.stopwatch .stopwatch-btn-yel{
-  border: 2px solid #FFC900;
-  color: #FFC900;
+.stopwatch .stopwatch-btn-yel {
+  border: 2px solid #ffc900;
+  color: #ffc900;
 }
 
-.stopwatch .stopwatch-btn-gre{
-  border: 2px solid #00ABA9;
-  color: #00ABA9;
+.stopwatch .stopwatch-btn-gre {
+  border: 2px solid #00aba9;
+  color: #00aba9;
 }
 .stopwatch .stopwatch-btn-red:hover {
-  background: #C85454;
-  border: 2px solid #C85454;
+  background: #c85454;
+  border: 2px solid #c85454;
   color: #fff;
 }
 .stopwatch .stopwatch-btn-yel:hover {
-  background: #FFC900;
-  border: 2px solid #FFC900;
+  background: #ffc900;
+  border: 2px solid #ffc900;
   color: #fff;
 }
 .stopwatch .stopwatch-btn-gre:hover {
-  background: #00ABA9;
-  border: 2px solid #00ABA9;
+  background: #00aba9;
+  border: 2px solid #00aba9;
   color: #fff;
 }
 
-.h3{
+.h3 {
   color: orange;
   font-weight: normal;
   text-align: center;
   margin-bottom: 30px;
 }
-.form-signin{
-  
-  
+.form-signin {
   display: inline-flexbox;
   border: none;
   padding: 50px 20px;
@@ -105,13 +101,12 @@ body {
   transition: background 1s;
   cursor: pointer;
   position: relative;
-
 }
-.logout-btn{
+.logout-btn {
   background: #fff;
   margin-top: 30px;
   margin-left: 5px;
-  border-radius: 50px ;
+  border-radius: 50px;
   padding: 12px 20px;
   font-size: 16px;
   text-transform: uppercase;
@@ -119,7 +114,7 @@ body {
   transition: background 1s;
   cursor: pointer;
 }
-.tables{
+.tables {
   margin-top: 30px;
   position: relative;
 }
